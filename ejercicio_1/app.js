@@ -3,7 +3,7 @@ const obtenerChiste = require("./library");
 
 // Codigo funcion callback
 function funcionCallback(chiste){
-    console.log(chiste);
+    console.log(chiste[0]["setup"] + "\n" + chiste[0]["punchline"]);
 }
 
 
